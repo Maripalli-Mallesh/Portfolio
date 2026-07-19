@@ -254,7 +254,7 @@ function initSkillCards() {
     
     skillCards.forEach(card => {
         card.addEventListener('mouseenter', () => {
-            card.style.transform = 'translateY(-10px) scale(1.02)';
+            card.style.transform = 'translateY(-10px) scale(1.01)';
         });
         
         card.addEventListener('mouseleave', () => {
